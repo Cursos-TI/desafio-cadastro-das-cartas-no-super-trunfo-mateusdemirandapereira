@@ -112,7 +112,8 @@ int main() {
 	printf("PIB: %.2f bilhoes de reais\n", pib2);
 	printf("Numero de Pontos Turisticos: %d\n", numeroDePontosTuristicos2);
 	printf("Densidade Populaciona: %.2f hab/km²\n", densidadePopulacional2);
-	printf("PIB per Capita: %.2f reais\n",pibPercapita2);	
+	printf("PIB per Capita: %.2f reais\n",pibPercapita2);
+	printf("\n\n");
 
 	switch (atributo) {
 	case 1:
