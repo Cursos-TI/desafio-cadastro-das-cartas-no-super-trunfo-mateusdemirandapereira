@@ -88,6 +88,31 @@ int main() {
 	printf("5 - Densidade demográfica\n");
 
 	scanf(" %d", &atributo);
+        printf("\n");
+	printf("Carta 1:\n");
+	printf("Estado: %c\n", estado);
+	printf("Codigo %s\n", codigoDaCarta);
+	printf("Nome da Cidade: %s\n", nomeDaCidade);
+	printf("Populacao: %ld\n", populacao);
+	printf("Area: %.2f Km²\n", area);
+	printf("PIB: %.2f bilhoes de reais\n", pib);
+	printf("Numero de Pontos Turisticos: %d\n", numeroDePontosTuristicos);
+	printf("Densidade Populaciona: %.2f hab/km²\n", densidadePopulacional);
+	printf("PIB per Capita: %.2f reais\n",pibPercapita);
+
+	printf("\n");
+
+	printf("Carta 2:\n");
+	printf("Estado: %c\n", estado2);
+	printf("Codigo %s\n", codigoDaCarta2);
+	printf("Nome da Cidade: %s\n", nomeDaCidade2);
+	printf("Populacao: %ld\n", populacao2);
+
+	printf("Area: %.2f Km²\n", area2);
+	printf("PIB: %.2f bilhoes de reais\n", pib2);
+	printf("Numero de Pontos Turisticos: %d\n", numeroDePontosTuristicos2);
+	printf("Densidade Populaciona: %.2f hab/km²\n", densidadePopulacional2);
+	printf("PIB per Capita: %.2f reais\n",pibPercapita2);	
 
 	switch (atributo) {
 	case 1:
