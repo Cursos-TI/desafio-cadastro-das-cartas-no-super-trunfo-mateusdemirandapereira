@@ -180,7 +180,7 @@ int main() {
 			printf("Cidade: %s - Cidade: %s\n", nomeDaCidade, nomeDaCidade2);
 			printf("Atributo para comparação: Densidade Populacional\n");
 			printf(
-					"Densidade Populacional da Cidade de %s: %.2f - Pontos Turisticos da Cidade de %s: %.2f\n",
+					"Densidade Populacional da Cidade de %s: %.2f - Densidade Populacional da Cidade de %s: %.2f\n",
 					nomeDaCidade, densidadePopulacional, nomeDaCidade2,
 					densidadePopulacional2);
 			printf("Carta %s venceu!\n", codigoDaCarta);
@@ -189,7 +189,7 @@ int main() {
 			printf("Cidade: %s - Cidade: %s\n", nomeDaCidade, nomeDaCidade2);
 			printf("Atributo para comparação: Densidade Populacional\n");
 			printf(
-					"Densidade Populacional da Cidade de %s: %.2f - Pontos Turisticos da Cidade de %s: %.2f\n",
+					"Densidade Populacional da Cidade de %s: %.2f - Densidade Populacional da Cidade de %s: %.2f\n",
 					nomeDaCidade, densidadePopulacional, nomeDaCidade2,
 					densidadePopulacional2);
 			printf("Carta %s venceu!\n", codigoDaCarta2);
