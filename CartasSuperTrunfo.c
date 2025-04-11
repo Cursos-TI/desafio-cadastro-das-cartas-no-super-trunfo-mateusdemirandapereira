@@ -4,7 +4,7 @@
 int main() {
 
     char estado[30];
-    char codigoDaCarta[4]; // Para 3 caracteres + '\0'
+    char codigoDaCarta[4]; 
     char nomeDaCidade[50];
     unsigned long int populacao;
     float area;
@@ -15,7 +15,7 @@ int main() {
 
     printf("Informe os dados da Carta 1: \n");
     printf("Digite o estado\n");
-    scanf("%s", estado);  // Não precisa do & em arrays de char
+    scanf("%s", estado);  
 
     printf("Digite o codigo da Carta\n");
     scanf("%s", codigoDaCarta);
