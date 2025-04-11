@@ -188,10 +188,19 @@ int main() {
     printf("Soma dos atributos carta1: %.2f\n",  valorCartaA1 + valorCartaA2);
     printf("Soma dos atributos carta2: %.2f\n",  valorCartaB1 + valorCartaB2);
 
-    if(resultado1 && resultado2) {
+     if(resultado1 && resultado2) {
         printf("Carta1 venceu!\n");
     } else if (resultado1 != resultado2) {
-        printf("Empatou!\n");
+        	float valor1 = valorCartaA1 + valorCartaA2;
+        	float valor2 = valorCartaB1 + valorCartaB2;
+        	if (valor1 > valor2) {
+        		printf("Carta1 venceu!\n");
+        	} else if (valor1 < valor2) {
+        		printf("Carta2 venceu!\n");
+        	} else {
+        		printf("Empatou!\n");
+        	} 
+    	
     } else {
         printf("Carta2 venceu!\n");
     }
